@@ -10,7 +10,7 @@ function Profile() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Update user information (if required)
+
         setUser({ username, password });
     };
 
